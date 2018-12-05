@@ -1,23 +1,23 @@
 var horizontalStatus = {
     rainy:{
         ios : "ios-rainy",
-        android : 'md-rainy'
+        android : "md-rainy"
     },
     cloud:{
         ios : "ios-cloud",
-        android : 'md-cloud'
+        android : "md-cloud"
     },
     sunny:{
         ios : "ios-sunny",
-        android : 'md-sunny'
+        android : "md-sunny"
     },
     thunderstorm:{
         ios : "ios-thunderstorm",
-        android : 'md-thunderstorm'
+        android : "md-thunderstorm"
     },
     cloudynight:{
         ios : "ios-cloudy-night",
-        android : 'md-cloudy-night'
+        android : "md-cloudy-night"
     },
 }
 var horizontalflatlistdata = [
@@ -39,7 +39,7 @@ var horizontalflatlistdata = [
     {
         hour: "5 Am",
         status: horizontalStatus.thunderstorm,
-        degres: 13
+        degress: 13
     },
     {
         hour: "11 Am",
@@ -47,5 +47,5 @@ var horizontalflatlistdata = [
         degress: 23
     },
 ];
-export {horizontalflatlistdata}
-export {horizontalStatus}
+export {horizontalflatlistdata};
+export {horizontalStatus};
